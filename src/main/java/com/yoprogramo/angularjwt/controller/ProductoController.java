@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/productos")
+@RequestMapping("/productos")
 @CrossOrigin(origins = "https://angularjwtfront.web.app")
 public class ProductoController {
 
