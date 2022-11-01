@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://angularjwtfront.web.app")
 public class ProductoController {
 
     @Autowired
