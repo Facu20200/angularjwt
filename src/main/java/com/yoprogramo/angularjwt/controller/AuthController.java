@@ -28,7 +28,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://angularjwtfront.web.app")
+@CrossOrigin(origins = {"https://angularjwtfront.web.app", "https://angularjwtfront.firebaseapp.com"})
 public class AuthController {
 
     @Autowired
